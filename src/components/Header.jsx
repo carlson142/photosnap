@@ -22,7 +22,7 @@ const Container = styled.header`
   }
 `;
 
-const LogoCont = styled(Link).attrs({ to: "/" })``;
+const LogoCont = styled(Link).attrs({ to: "/photosnap/" })``;
 
 const Logo = styled.img``;
 

@@ -39,7 +39,7 @@ const Top = styled.div`
   border-bottom: 1px solid var(--color-light-gray);
 `;
 
-const LogoCont = styled(Link).attrs({ to: "/" })``;
+const LogoCont = styled(Link).attrs({ to: "/photosnap/" })``;
 
 const Logo = styled.img``;
 

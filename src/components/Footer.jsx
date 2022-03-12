@@ -158,7 +158,7 @@ const Footer = () => {
 
       <Mid>
         <List>
-          <Item to="/">home</Item>
+          <Item to="/photosnap/">home</Item>
           <Item to="/stories">stories</Item>
           <Item to="/features">features</Item>
           <Item to="/pricing">pricing</Item>
