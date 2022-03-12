@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import styled from "styled-components";
+import Header from "./components/Header";
 
-function App() {
+import { Routes, Route } from "react-router-dom";
+import Main from "./components/Main";
+import HomePage from "./pages/HomePage";
+import Stories from "./pages/Stories";
+import Features from "./pages/Features";
+import Pricing from "./pages/Pricing";
+import Footer from "./components/Footer";
+
+const Container = styled.main`
+  display: flex;
+  flex-direction: column;
+
+  overflow: hidden;
+`;
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <Header />
+      <Main>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/stories" element={<Stories />} />
+          <Route path="/features" element={<Features />} />
+          <Route path="/pricing" element={<Pricing />} />
+        </Routes>
+      </Main>
+      <Footer />
+    </Container>
   );
-}
+};
 
 export default App;

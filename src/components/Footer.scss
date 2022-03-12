@@ -1,0 +1,41 @@
+.social {
+  height: 2rem;
+  width: 2rem;
+
+  cursor: pointer;
+}
+
+.fb {
+  transition: var(--tr);
+  &:hover {
+    fill: #4267b2;
+  }
+}
+
+.yt {
+  transition: var(--tr);
+  &:hover {
+    fill: #ff0000;
+  }
+}
+
+.tw {
+  transition: var(--tr);
+  &:hover {
+    fill: #1da1f2;
+  }
+}
+
+.pt {
+  transition: var(--tr);
+  &:hover {
+    fill: #e60023;
+  }
+}
+
+.ig {
+  transition: var(--tr);
+  &:hover {
+    fill: #c13584;
+  }
+}
