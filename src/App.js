@@ -23,7 +23,7 @@ const App = () => {
       <Header />
       <Main>
         <Routes>
-          <Route path="/" element={<HomePage />} />
+          <Route path="/photosnap/" element={<HomePage />} />
           <Route path="/stories" element={<Stories />} />
           <Route path="/features" element={<Features />} />
           <Route path="/pricing" element={<Pricing />} />
