@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/photosnap/static/css/main.cde3e1d4.css",
-    "main.js": "/photosnap/static/js/main.c89123b4.js",
+    "main.js": "/photosnap/static/js/main.873aff21.js",
     "static/media/beautiful-stories.jpg": "/photosnap/static/media/beautiful-stories.c53d42bed55e892d6a5e.jpg",
     "static/media/moon-of-appalacia.jpg": "/photosnap/static/media/moon-of-appalacia.241e18c36b39959723dc.jpg",
     "static/media/cityscapes.jpg": "/photosnap/static/media/cityscapes.f5cf644be0371b9b30ec.jpg",
@@ -35,10 +35,10 @@
     "index.html": "/photosnap/index.html",
     "static/media/check.svg": "/photosnap/static/media/check.46b060c0a6f9d5931055e452d1363f6c.svg",
     "main.cde3e1d4.css.map": "/photosnap/static/css/main.cde3e1d4.css.map",
-    "main.c89123b4.js.map": "/photosnap/static/js/main.c89123b4.js.map"
+    "main.873aff21.js.map": "/photosnap/static/js/main.873aff21.js.map"
   },
   "entrypoints": [
     "static/css/main.cde3e1d4.css",
-    "static/js/main.c89123b4.js"
+    "static/js/main.873aff21.js"
   ]
 }
